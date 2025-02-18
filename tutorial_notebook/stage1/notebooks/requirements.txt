@@ -1,0 +1,17 @@
+# Data manipulation and analysis
+pandas
+numpy
+scipy
+
+# Machine Learning
+scikit-learn
+xgboost
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Time series specific
+statsmodels
+pmdarima

@@ -1,0 +1,2 @@
+total_trades,winning_trades,losing_trades,win_rate,strategy_return,market_return,annualized_strategy_return,annualized_market_return,max_drawdown,sharpe_ratio,final_portfolio_value
+56,23,33,41.07142857142857,-57.248504486542615,75.93881613896896,-29.648109947815126,26.339326577349055,-62.11981744736145,-1.019445288284561,42751.49551345738
