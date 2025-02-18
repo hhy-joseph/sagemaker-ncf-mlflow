@@ -121,6 +121,14 @@ This curriculum is organized into three progressive stages, allowing data scient
 - Strategy evaluation
 - Results logging
 
+## Lesson 5: Retraining with new data
+**Notebook: `05_mlflow_retraining.ipynb`**
+- Time Series Model Retraining Workflow
+- Performance-Based Model Lifecycle
+- Continuous Integration Pipeline
+- Data Drift Management
+
+
 # Stage 3: Production MLOps with Amazon Forecast
 **Target Audience:** Experienced data scientists moving to production
 **Objective:** Build production-grade forecasting systems
