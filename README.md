@@ -129,76 +129,10 @@ This curriculum is organized into three progressive stages, allowing data scient
 - Data Drift Management
 
 
-# Stage 3: Production MLOps with Amazon Forecast
-**Target Audience:** Experienced data scientists moving to production
-**Objective:** Build production-grade forecasting systems
-
-## Lesson 1: AWS Infrastructure Setup
-**Notebook: `01_aws_setup.ipynb`**
-- AWS service configuration
-- IAM setup
-- SageMaker configuration
-- Amazon Forecast setup
-- MLflow integration with SageMaker
-
-## Lesson 2: Data Preparation for Forecast
-**Notebook: `02_forecast_data_prep.ipynb`**
-- Amazon Forecast data format
-- Target time series preparation
-- Related time series (optional)
-- Item metadata (optional)
-- Data import workflows
-
-## Lesson 3: Amazon Forecast Implementation
-**Notebook: `03_forecast_implementation.ipynb`**
-- Predictor configuration
-- Algorithm selection
-- Forecast generation
-- Explainability features
-- Performance optimization
-
-## Lesson 4: Production Monitoring
-**Notebook: `04_monitoring.ipynb`**
-- Time series specific monitoring
-  - Concept drift detection
-    - Feature drift monitoring
-    - Label drift detection
-    - Prediction drift analysis
-  - Data quality monitoring
-    - Missing value patterns
-    - Outlier detection
-    - Data consistency checks
-  - Model performance tracking
-    - Accuracy metrics
-    - Prediction bias
-    - Forecast confidence
-  - Alert configuration
-    - Drift thresholds
-    - Performance degradation
-    - Data quality issues
-  - Dashboard setup
-    - Real-time monitoring
-    - Historical trends
-    - Alert visualization
-
-## Lesson 5: MLflow Integration with Forecast
-**Notebook: `05_mlflow_forecast_integration.ipynb`**
-- Custom MLflow tracking
-- Forecast metrics logging
-- Model metadata management
-- Experiment comparison
-- Note: While Amazon Forecast handles model training internally, we can still use MLflow to track:
-  - Dataset versions
-  - Forecast configurations
-  - Performance metrics
-  - Prediction results
-  - Model artifacts (where applicable)
-
 ## Time Estimates
 - Stage 1: 15-20 hours
 - Stage 2: 20-25 hours
-- Stage 3: 25-30 hours
-Total: 60-75 hours
+Total: 45-60 hours
 
 ## Prerequisites by Stage
 
@@ -213,12 +147,6 @@ Total: 60-75 hours
 - Understanding of ML workflows
 - Experience with experiment tracking
 - Basic MLOps concepts
-
-### Stage 3
-- Completion of Stage 2
-- AWS fundamentals
-- Understanding of cloud infrastructure
-- Production ML experience
 
 ## Success Criteria
 
@@ -235,10 +163,3 @@ Total: 60-75 hours
 3. Model versioning
 4. Automated logging
 5. Structured experiment management
-
-### Stage 3
-1. Production-ready infrastructure
-2. Automated Forecast pipeline
-3. Monitored predictions
-4. Drift detection system
-5. Integration between MLflow and Forecast
