@@ -11,3 +11,6 @@ wheels/
 tourism_dataset_5000.csv
 
 mlruns/
+mlartifacts
+feature_sets
+outputs
